@@ -6,7 +6,7 @@ const Services = () => {
   const navigate = useNavigate()
   return (
 
-    <Container>
+    <Container style={{marginTop:"80px"}}>
       The Kia Sonet HTK is a mid-spec variant (approx. ₹8.4–9.9 Lakhs ex-showroom) available with 1.2L Petrol (5MT) or 1.5L Diesel (6MT), offering 16-inch wheels, 8-inch touchscreen, and 6 airbags standard. The lineup includes HTE, HTK, HTK(O), HTK+, HTX, GTX+, and X-Line, focusing on premium features like sunroofs, ventilated seats, and connected car technology in higher trims.
       Key Details of Kia Sonet HTK/HTK+ Variants
       Engine & Performance:

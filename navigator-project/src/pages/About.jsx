@@ -8,10 +8,10 @@ const About = () => {
   const navigator = useNavigate();
   
   return (
-   <Container className="ms-auto">
+   <Container className="ms-auto" >
     <Col>
     <Row>
-       <Card style={{ width: "24rem" }} className="m-4">
+       <Card style={{ width: "24rem", backgroundColor:"gray" }} className="m-4">
       <Card.Img variant="top" src="https://imgd.aeplcdn.com/1056x594/n/ltan3cb_1726711.png?q=80" />
       <Card.Body>
         <Card.Title>HTK</Card.Title>
@@ -25,7 +25,7 @@ const About = () => {
     </Card>
 
 
-       <Card style={{ width: "24rem" }} className="m-4">
+       <Card style={{ width: "24rem", backgroundColor:"gray" }} className="m-4">
       <Card.Img variant="top" src="https://imgd.aeplcdn.com/1056x594/n/ltan3cb_1726711.png?q=80" />
       <Card.Body>
         <Card.Title>HTK(O)</Card.Title>
@@ -38,8 +38,8 @@ const About = () => {
       </Card.Body>
     </Card>
 
-       <Card style={{ width: "24rem" }} className="m-4">
-      <Card.Img variant="top" src="https://imgd.aeplcdn.com/1056x594/n/ltan3cb_1726711.png?q=80" />
+       <Card style={{ width: "24rem", backgroundColor:"gray" }} className="m-4">
+      <Card.Img variant="top"  src="https://imgd.aeplcdn.com/1056x594/n/ltan3cb_1726711.png?q=80" />
       <Card.Body>
         <Card.Title>HTK PLUS</Card.Title>
         <Card.Text>

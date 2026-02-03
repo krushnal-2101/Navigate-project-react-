@@ -35,8 +35,8 @@ function BookingDetails() {
   }
 
   return (
-    <Container className="mt-5">
-      <Card style={{ width: "24rem" }}>
+    <Container className="mt-5" >
+      <Card style={{ width: "24rem" , backgroundColor:"gray" }}>
         <Card.Body>
           <Card.Title>{car.title}</Card.Title>
           <Card.Text>{car.description}</Card.Text>
