@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import MainLayout from './layout/MainLayout';
+import BookingDetails from './pages/BookingDetails';
 
 const App = () => {
 
@@ -23,7 +24,12 @@ const App = () => {
         },{
           path:"Services",
           element:<Services/>
-        }
+        },
+       {
+         path:"booking/:id",
+         element:<BookingDetails/>
+       }
+
       ]
     }
   ])
